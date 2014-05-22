@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <recognition>
+        <extension>h</extension>
+        <extension>pch</extension>
+    </recognition>
+	<!--<color>0.408, 0.690, 0.976</color>-->
+  <color>0.463,0.749,0.933</color>
+</settings>
