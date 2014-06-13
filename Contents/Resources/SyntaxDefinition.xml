@@ -7326,8 +7326,8 @@
       <keywords id="Method calls" color="#6C0540" casesensitive="yes" scope="language.function.Objective-C-Header" useforautocomplete="yes">
         <regex>\s(\w+)\]</regex>
       </keywords>
-      <keywords id="Properties" useforautocomplete="yes" scope="language.variable.Objective-C-Header" casesensitive="no" color="#8735a5">
-        <regex>\.(\w{2,}+)</regex>
+      <keywords id="Properties" useforautocomplete="yes" scope="language.variable.objective-c" casesensitive="no" color="#8735a5">
+        <regex>\.([a-z]{2,}+)</regex>
       </keywords>
       <keywords id="Literals" font-weight="bold" hidden="no" useforautocomplete="no" indentation="0" ignoreblocks="no" scope="markup.tag.attribute.value">
         <regex>(@)</regex>
@@ -7340,6 +7340,12 @@
       </keywords>
       <keywords id="Base characters" useforautocomplete="yes" casesensitive="no" color="#006ff8">
         <regex>([\{\}\[\]|;\-\+\(\):])</regex>
+      </keywords>
+      <keywords id="Plus Operator" scope="style.value.keyword">
+        <regex>(\+)</regex>
+      </keywords>
+      <keywords id="Minus Operator" scope="style.value.numeric">
+        <regex>(\-{1,2})</regex>
       </keywords>
       <keywords id="Contants" font-weight="bold" hidden="yes" useforautocomplete="no" casesensitive="no" indentation="0" ignoreblocks="no" scope="style.at-rule">
         <regex>const ([A-Z0-9_]+)</regex>
